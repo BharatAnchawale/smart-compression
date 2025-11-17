@@ -1,0 +1,44 @@
+2025-09-06 13:20:10,459 - SmartCompressionSystem - INFO - log_compression_event:120 - Production compression system initialized | Context: {'previous_days_enabled': True, 'platform': {'system': 'Windows', 'release': '10', 'machine': 'AMD64', 'python_version': '3.11.3', 'platform': 'Windows-10-10.0.19045-SP0'}}
+2025-09-06 13:20:10,459 - SmartCompressionSystem - ERROR - log_compression_event:124 - Integrity check failed: Checksum mismatch
+2025-09-06 13:20:10,459 - SmartCompressionSystem - INFO - log_compression_event:120 - Successfully compressed normal_file.txt | Context: {'original_size': 3900, 'compressed_size': 58, 'ratio': 67.24137931034483, 'algorithm': 'zstd'}
+2025-09-06 13:20:11,710 - SmartCompressionSystem - ERROR - log_compression_event:124 - Integrity check failed: Checksum mismatch
+2025-09-06 13:20:11,710 - SmartCompressionSystem - INFO - log_compression_event:120 - Successfully compressed normal_file.txt | Context: {'original_size': 3900, 'compressed_size': 77, 'ratio': 50.64935064935065, 'algorithm': 'zstd'}
+2025-09-06 13:20:11,725 - SmartCompressionSystem - ERROR - log_compression_event:124 - Integrity check failed: Checksum mismatch
+2025-09-06 13:20:11,725 - SmartCompressionSystem - INFO - log_compression_event:120 - Successfully compressed normal_file.txt | Context: {'original_size': 3900, 'compressed_size': 187, 'ratio': 20.855614973262032, 'algorithm': 'zstd'}
+2025-09-06 13:20:11,725 - SmartCompressionSystem - ERROR - log_compression_event:124 - Integrity check failed: Checksum mismatch
+2025-09-06 13:20:11,725 - SmartCompressionSystem - INFO - log_compression_event:120 - Successfully compressed json_data.json | Context: {'original_size': 7800, 'compressed_size': 47, 'ratio': 165.95744680851064, 'algorithm': 'brotli'}
+2025-09-06 13:20:11,725 - SmartCompressionSystem - ERROR - log_compression_event:124 - Integrity check failed: Checksum mismatch
+2025-09-06 13:20:11,725 - SmartCompressionSystem - INFO - log_compression_event:120 - Successfully compressed json_data.json | Context: {'original_size': 7800, 'compressed_size': 68, 'ratio': 114.70588235294117, 'algorithm': 'brotli'}
+2025-09-06 13:20:11,725 - SmartCompressionSystem - ERROR - log_compression_event:124 - Integrity check failed: Checksum mismatch
+2025-09-06 13:20:11,725 - SmartCompressionSystem - INFO - log_compression_event:120 - Successfully compressed json_data.json | Context: {'original_size': 7800, 'compressed_size': 176, 'ratio': 44.31818181818182, 'algorithm': 'brotli'}
+2025-09-06 13:20:11,741 - SmartCompressionSystem - WARNING - log_compression_event:122 - Empty input data
+2025-09-06 13:20:11,741 - SmartCompressionSystem - WARNING - log_compression_event:122 - Empty input data
+2025-09-06 13:20:11,741 - SmartCompressionSystem - WARNING - log_compression_event:122 - Empty input data
+2025-09-06 13:20:11,741 - SmartCompressionSystem - ERROR - log_compression_event:124 - Integrity check failed: Checksum mismatch
+2025-09-06 13:20:11,741 - SmartCompressionSystem - INFO - log_compression_event:120 - Successfully compressed binary_data.bin | Context: {'original_size': 12800, 'compressed_size': 339, 'ratio': 37.75811209439528, 'algorithm': 'lz4'}
+2025-09-06 13:20:11,741 - SmartCompressionSystem - ERROR - log_compression_event:124 - Integrity check failed: Checksum mismatch
+2025-09-06 13:20:11,741 - SmartCompressionSystem - INFO - log_compression_event:120 - Successfully compressed binary_data.bin | Context: {'original_size': 12800, 'compressed_size': 318, 'ratio': 40.25157232704402, 'algorithm': 'lz4'}
+2025-09-06 13:20:11,741 - SmartCompressionSystem - ERROR - log_compression_event:124 - Integrity check failed: Checksum mismatch
+2025-09-06 13:20:11,741 - SmartCompressionSystem - INFO - log_compression_event:120 - Successfully compressed binary_data.bin | Context: {'original_size': 12800, 'compressed_size': 428, 'ratio': 29.906542056074766, 'algorithm': 'lz4'}
+2025-09-06 13:20:11,741 - SmartCompressionSystem - WARNING - log_compression_event:122 - Input data corruption detected: Excessive null bytes in text data: 1000
+2025-09-06 13:20:11,757 - SmartCompressionSystem - ERROR - log_compression_event:124 - Integrity check failed: Checksum mismatch
+2025-09-06 13:20:11,819 - SmartCompressionSystem - INFO - log_compression_event:120 - Successfully compressed corrupted_sim.txt | Context: {'original_size': 1000, 'compressed_size': 76, 'ratio': 13.157894736842104, 'algorithm': 'lzma'}
+2025-09-06 13:20:11,835 - SmartCompressionSystem - WARNING - log_compression_event:122 - Input data corruption detected: Excessive null bytes in text data: 1000
+2025-09-06 13:20:11,835 - SmartCompressionSystem - ERROR - log_compression_event:124 - Integrity check failed: Checksum mismatch
+2025-09-06 13:20:11,835 - SmartCompressionSystem - INFO - log_compression_event:120 - Successfully compressed corrupted_sim.txt | Context: {'original_size': 1000, 'compressed_size': 95, 'ratio': 10.526315789473685, 'algorithm': 'lzma'}
+2025-09-06 13:20:11,835 - SmartCompressionSystem - WARNING - log_compression_event:122 - Input data corruption detected: Excessive null bytes in text data: 1000
+2025-09-06 13:20:11,850 - SmartCompressionSystem - ERROR - log_compression_event:124 - Integrity check failed: Checksum mismatch
+2025-09-06 13:20:11,850 - SmartCompressionSystem - INFO - log_compression_event:120 - Successfully compressed corrupted_sim.txt | Context: {'original_size': 1000, 'compressed_size': 209, 'ratio': 4.784688995215311, 'algorithm': 'lzma'}
+2025-09-06 13:20:11,850 - SmartCompressionSystem - WARNING - log_compression_event:122 - Input data corruption detected: Extremely low entropy: only 1 unique bytes
+2025-09-06 13:20:11,866 - SmartCompressionSystem - ERROR - log_compression_event:124 - Integrity check failed: Checksum mismatch
+2025-09-06 13:20:11,866 - SmartCompressionSystem - INFO - log_compression_event:120 - Successfully compressed large_file.dat | Context: {'original_size': 100000, 'compressed_size': 148, 'ratio': 675.6756756756756, 'algorithm': 'lzma'}
+2025-09-06 13:20:11,866 - SmartCompressionSystem - WARNING - log_compression_event:122 - Input data corruption detected: Extremely low entropy: only 1 unique bytes
+2025-09-06 13:20:11,882 - SmartCompressionSystem - ERROR - log_compression_event:124 - Integrity check failed: Checksum mismatch
+2025-09-06 13:20:11,882 - SmartCompressionSystem - INFO - log_compression_event:120 - Successfully compressed large_file.dat | Context: {'original_size': 100000, 'compressed_size': 171, 'ratio': 584.7953216374269, 'algorithm': 'lzma'}
+2025-09-06 13:20:11,882 - SmartCompressionSystem - WARNING - log_compression_event:122 - Input data corruption detected: Extremely low entropy: only 1 unique bytes
+2025-09-06 13:20:11,897 - SmartCompressionSystem - ERROR - log_compression_event:124 - Integrity check failed: Checksum mismatch
+2025-09-06 13:20:11,897 - SmartCompressionSystem - INFO - log_compression_event:120 - Successfully compressed large_file.dat | Context: {'original_size': 100000, 'compressed_size': 279, 'ratio': 358.42293906810033, 'algorithm': 'lzma'}
+2025-09-06 13:20:11,897 - SmartCompressionSystem - ERROR - log_compression_event:124 - Unexpected error in production_compression: Input data must be bytes
+2025-09-06 13:20:11,913 - SmartCompressionSystem - ERROR - log_compression_event:124 - Integrity check failed: Checksum mismatch
+2025-09-06 13:20:11,913 - SmartCompressionSystem - INFO - log_compression_event:120 - Successfully compressed corruption_test | Context: {'original_size': 110, 'compressed_size': 80, 'ratio': 1.375, 'algorithm': 'lzma'}
+2025-09-06 13:30:02,990 - SmartCompressionSystem - INFO - log_compression_event:120 - Production compression system initialized | Context: {'previous_days_enabled': True, 'platform': {'system': 'Windows', 'release': '10', 'machine': 'AMD64', 'python_version': '3.11.3', 'platform': 'Windows-10-10.0.19045-SP0'}}
